@@ -1,0 +1,370 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+list-style: none;
+text-decoration: none;
+}
+
+body{
+background: #1F2326;
+
+}
+.blok{
+    width: 100%;
+    height: 700px;
+    margin-top: -50px; 
+    display: flex;
+    justify-content: space-between;
+    /* -webkit-clip-path: circle(62.6% at 35% 34%);
+clip-path: circle(62.6% at 35% 34%); */
+}
+.header {
+    display: flex;
+   justify-content: space-between;
+}
+.header_wrapper {
+    
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: -50px;
+    background: #FF4656;
+    -webkit-clip-path: circle(48.5% at 35% 34%);
+    clip-path: circle(48.5% at 35% 34%);
+}
+.logo_wrap {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.red_cirkle {
+    background-color: #FF4656;
+    width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-top: 30px;
+}
+.white_cirkle {
+margin-top: 100px;
+ width: 150px;
+ margin-right: 100px;
+height: 150px;
+border-radius: 50%;
+/* margin-left: -50px; */
+background-color: rgb(227, 232, 236);
+}
+.gray_cirkle {
+    background-color: gainsboro;
+    width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-top: 50px;
+margin-left: 150px;
+}
+
+/* -----------задний фон закончил-------------------------------------- */
+
+.cart_blok {
+    margin-top: -480px;
+    margin-left: 200px;
+    position: absolute;
+   height: 900px;
+   box-shadow: -5px 5px 20px 10px #1F2326;
+   border-radius: 20px;
+}
+.container {
+    width: 1500px;
+}
+.cart_header-wrap {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: #0f2535;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.cart_menu_wrap {
+    display: flex;
+    align-items: center;
+   gap: 100px;
+  
+}
+.cart_logo-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart_logo {
+    fill: #FFF;
+    height: 20px;
+}
+.logo_line {
+    width: 1px;
+    height: 40px;
+    background-color: #FFF;
+}
+.cart_menu-nav {
+    display: flex;
+    gap: 35px;
+}
+.cart_menu-link {
+    color: #FFF;
+}
+.autorization_wrap {
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    gap: 10px;
+    
+}
+.auth_img {
+    border-radius: 50%;
+}
+.auth_title {
+}
+
+/* ------------начало раздела главных фоток------------------------------------ */
+
+.center_wrap {
+    display: flex;
+    height: 700px;
+    padding-top: 50px;
+    background: url(./background\ \(2\).png) no-repeat center;
+   background-color: #FF4656;
+}
+
+.center_title-blok {
+}
+.center_logo {
+    margin-top: 380px;
+    margin-left: 60px;
+}
+.agent_title {
+    transform: rotate(90deg);
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 15.6px;
+margin-top: -300px;
+    margin-left: -80px;
+color: rgb(233, 223, 223);
+}
+
+.center_left-line{
+    width: 150px;
+    height: 4px;
+    background-color: #204855;
+    margin-left: 50px;
+margin-top: -180px;
+}
+.center-foto_wrapper{
+    display: flex;
+    width: 1250px;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: -170px;
+}
+
+.jett_wrapp{
+    background-color: #1F2326;
+    margin-left: -70px;
+    background-image: url(./image/девушки/Art\ \(4\).png);
+    box-shadow: 5px 5px 15px 5px rgb(12, 22, 8);
+   
+}
+
+.sova_wrap{
+background-image: url(./image/рыжий/Art\ \(2\).png);
+background-color: #1F2326;
+box-shadow: 5px 5px 15px 5px rgb(12, 22, 8);
+}
+
+.china_wrap{
+    border: 1px solid black;
+   
+    background-image: url(./image/китаянка/Art\ \(1\).png);
+    background-color: #f2f4f6; 
+}
+
+.negr_title, .sova_title{
+    position: absolute;
+    transform: rotate(90deg);
+    font-family: Druk Wide;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 7.2px;
+color: white;
+}
+
+.sova_title{
+    margin-left: -70px;
+    margin-top: 60px;
+}
+
+.negr_title{
+margin-left: -120px;
+margin-top: 110px;
+}
+.chine_title{
+    color: #0f2535;
+    margin-top: 60px;
+    margin-left: -50px;
+    position: absolute;
+    transform: rotate(90deg);
+    font-family: Druk Wide;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 7.2px;
+fill: #f2f4f6;
+}
+.negr_subtitle, .chine_subtitle {
+    position: absolute;
+    color: #FF4656;
+font-family: Druk Wide;
+transform: rotate(90deg);
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px;
+}
+.chine_subtitle{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.jet_subtitle{
+    position: absolute;
+    color: #FF4656;
+font-family: Druk Wide;
+transform: rotate(90deg);
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px;
+margin-top: 90px;
+margin-left: -20px;
+display: inline;
+}
+
+.sova_subtitle{
+    position: absolute;
+    color: #FF4656;
+font-family: Druk Wide;
+transform: rotate(90deg);
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px;
+margin-top: 70px;
+margin-left: -5px;
+display: inline;
+}
+
+.negr_subtitle{
+    margin-top: 120px;
+    margin-left: -43px;
+}
+
+.chine_subtitle{
+margin-top: 50px;
+
+}
+.negr_text-wrap {
+}
+
+.negr_footer-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    height: 53px;
+    background-color: #1F2326;
+    border: 1px solid white;
+    position: absolute;
+    top: 379px;
+    left: 10px;
+}
+
+.chine_footer-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 210px;
+    height: 53px;
+    background-color: #f0f2f5;
+    border: 1px solid rgb(15, 14, 14);
+    position: absolute;
+    top: 379px;
+    left: 10px; 
+}
+.negr_footer-img {
+width: 36px;
+height: 35px;
+
+}
+
+
+
+.jett_wrapp, .phoenix_wrap, .sova_wrap, .china_wrap { 
+background-repeat: no-repeat;
+background-position: cover;
+background-size: contain;
+width: 200px;
+height: 400px;
+position: relative;
+border-top-left-radius: 20px;
+
+}
+
+.phoenix_wrap {
+    width: 178px;
+background-image: url(./image/черный/player.png);
+box-shadow: 5px 5px 15px 5px rgb(12, 22, 8);
+}
+.jet_title{
+    margin-left: -80px;
+    margin-top: 70px;
+    position: absolute;
+    transform: rotate(90deg);
+    font-family: Druk Wide;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 15px;
+color: white;
+}
+
+
+
+.cart_footer{
+    height: 50px;
+    margin-top: 150px;
+    background-color: #FFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
